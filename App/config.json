@@ -2,7 +2,7 @@
 	"URLs": [
 	{
 		"alias":"3DViewer",
-		"scene":"../Scene/Production_1.3mx"
+		"scene":"https://github.com/Raefz1/3DViewer/blob/main/Scene/Production_1.3mx"
 	}
 	]
 }
