@@ -26,7 +26,7 @@ qx.$$loader = {
   parts : {"boot":[0]},
   packages : {"0":{"uris":["__out__:acute3d.3679e2d9084f.js"]}},
   urisBefore : [],
-  cssBefore : ["https://github.com/Raefz1/3DViewer/tree/main/App/resource/acute3d/cs/custom.css"],
+  cssBefore : ["./resource/acute3d/cs/custom.css"],
   boot : "boot",
   closureParts : {},
   bootIsInline : true,
