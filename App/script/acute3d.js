@@ -13,7 +13,7 @@ var envinfo = {"BUILD_TEST":false,"INCLUDE_DEBUG":false,"qx.application":"acute3
 for (var k in envinfo) qx.$$environment[k] = envinfo[k];
 
 if (!qx.$$libraries) qx.$$libraries = {};
-var libinfo = {"__out__":{"sourceUri":"https://github.com/Raefz1/3DViewer/tree/main/App/script"},"acute3d":{"resourceUri":"https://github.com/Raefz1/3DViewer/tree/main/App/resource","sourceUri":"https://github.com/Raefz1/3DViewer/tree/main/App/script"},"qx":{"resourceUri":"resource","sourceUri":"https://github.com/Raefz1/3DViewer/tree/main/App/script","sourceViewUri":"https://github.com/qooxdoo/qooxdoo/blob/%{qxGitBranch}/framework/source/class/%{classFilePath}#L%{lineNumber}"}};
+var libinfo = {"__out__":{"sourceUri":"script"},"acute3d":{"resourceUri":"resource","sourceUri":"script"},"qx":{"resourceUri":"resource","sourceUri":"script","sourceViewUri":"https://github.com/qooxdoo/qooxdoo/blob/%{qxGitBranch}/framework/source/class/%{classFilePath}#L%{lineNumber}"}};
 for (var k in libinfo) qx.$$libraries[k] = libinfo[k];
 
 qx.$$resources = {};
